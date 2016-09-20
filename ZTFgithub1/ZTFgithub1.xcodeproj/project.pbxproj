@@ -12,6 +12,7 @@
 		BC6AC8921D90DAB400325BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6AC8901D90DAB400325BD7 /* Main.storyboard */; };
 		BC6AC8941D90DAB500325BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6AC8931D90DAB500325BD7 /* Assets.xcassets */; };
 		BC6AC8971D90DAB500325BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6AC8951D90DAB500325BD7 /* LaunchScreen.storyboard */; };
+		BC6AC8A11D90DB8300325BD7 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6AC8A01D90DB8300325BD7 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BC6AC8931D90DAB500325BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC6AC8961D90DAB500325BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC6AC8981D90DAB500325BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6AC8A01D90DB8300325BD7 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		BC6AC8801D90DAB400325BD7 = {
 			isa = PBXGroup;
 			children = (
+				BC6AC8A01D90DB8300325BD7 /* NewViewController.swift */,
 				BC6AC88B1D90DAB400325BD7 /* ZTFgithub1 */,
 				BC6AC88A1D90DAB400325BD7 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6AC8A11D90DB8300325BD7 /* NewViewController.swift in Sources */,
 				BC6AC88F1D90DAB400325BD7 /* ViewController.swift in Sources */,
 				BC6AC88D1D90DAB400325BD7 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				BC6AC89D1D90DAB500325BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
