@@ -13,9 +13,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //自己写的代码
+        //  报错   >>>>>>> ra 1.05  版本号
         print("打印")
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //  <<<<<<<<<< 
+        //  ==========   mine   
+        
+        
+        
     }
+    
+    //  >>>>>>>>> ra 1.45
+    //别人写的代码
+    func writeData() -> Void {
+        print("一起写代码啊")
+    }
+    
+    //   <<<<<<<<<<  
+    //    ==========
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -24,4 +40,16 @@ class ViewController: UIViewController {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
